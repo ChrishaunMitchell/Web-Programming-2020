@@ -1,0 +1,87 @@
+/* myStyle.css */
+body {
+ background-color: hotpink;
+ color: #FFFFFF;
+ background-image: url("ambient.jpg");
+ background-size: 1600px 1500px;
+}
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+h3 {
+ color: pink;
+ text-align: left;
+ font:  140% fantasy;
+}
+
+h4:hover{
+	text-align: center;
+}
+div {
+	text-align:right;
+}
+div:hover {
+	color:hotpink;
+}
+p {
+ background-color: indigo;
+ color: #333300;
+ text-align: right;
+}
+span{
+	text-align:center;
+	color:red;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+<style type="text/css">
+	.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.TFtable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: pink;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: hotpink;
+	}
+	.TFtable tr:nth-child(1){
+		background: indigo;
+	}
+	.TFtable tr:nth-child(2){
+		background: indigo;
+	}
+</style>
